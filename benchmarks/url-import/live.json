@@ -1,0 +1,74 @@
+[
+  {
+    "name": "github-blob",
+    "seconds": 0.209,
+    "status": "ready",
+    "rows": 150,
+    "columns": 5,
+    "cache_hit": false,
+    "source_records_hidden": true
+  },
+  {
+    "name": "github-catalog",
+    "seconds": 0.418,
+    "status": "ready",
+    "rows": 150,
+    "columns": 5,
+    "cache_hit": false,
+    "source_records_hidden": true
+  },
+  {
+    "name": "json-api-no-extension",
+    "seconds": 0.153,
+    "status": "ready",
+    "rows": 24,
+    "columns": 2,
+    "cache_hit": false,
+    "source_records_hidden": true
+  },
+  {
+    "name": "uci-zip",
+    "seconds": 0.544,
+    "status": "ready",
+    "rows": 150,
+    "columns": 5,
+    "cache_hit": false,
+    "source_records_hidden": true
+  },
+  {
+    "name": "huggingface-blob",
+    "seconds": 0.336,
+    "status": "ready",
+    "rows": 150,
+    "columns": 6,
+    "cache_hit": false,
+    "source_records_hidden": true
+  },
+  {
+    "name": "huggingface-catalog",
+    "seconds": 0.169,
+    "status": "ready",
+    "rows": 150,
+    "columns": 6,
+    "cache_hit": true,
+    "source_records_hidden": true
+  },
+  {
+    "name": "google-sheets",
+    "seconds": 0.75,
+    "status": "ready",
+    "rows": 30,
+    "columns": 6,
+    "cache_hit": false,
+    "source_records_hidden": true
+  },
+  {
+    "name": "kaggle-page",
+    "seconds": 1.035,
+    "status": "ready",
+    "rows": 150,
+    "columns": 6,
+    "cache_hit": true,
+    "source_records_hidden": true
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "id": "job_bfa62bdaad728524c302bd9c",
+  "workspace": "bento-team",
+  "owner": "user_b68687196d937793e4371b21",
+  "state": "succeeded",
+  "spec": {
+    "train": "ds_b3423737d1e4b10b34124c23",
+    "test": "ds_19f342c9f7fe0afdd6bc267b",
+    "target": "target",
+    "backend": "tabicl",
+    "task": "regression",
+    "fine_tune": false,
+    "use_cache": false,
+    "time_limit": 30,
+    "seed": 2026,
+    "features": [
+      "feature_0",
+      "feature_1",
+      "feature_2",
+      "feature_3",
+      "feature_4",
+      "feature_5",
+      "feature_6",
+      "feature_7",
+      "feature_8",
+      "feature_9",
+      "feature_10",
+      "feature_11",
+      "feature_12",
+      "feature_13",
+      "feature_14",
+      "feature_15",
+      "feature_16",
+      "feature_17",
+      "feature_18",
+      "feature_19"
+    ],
+    "operation": "predict",
+    "workspace": "bento-team",
+    "test_size": 0.2
+  },
+  "result": {
+    "metrics": {},
+    "backend": "tabicl",
+    "checkpoint": "tabicl-v2-20260212",
+    "train_rows": 2000,
+    "test_rows": 500,
+    "features": [
+      "feature_0",
+      "feature_1",
+      "feature_2",
+      "feature_3",
+      "feature_4",
+      "feature_5",
+      "feature_6",
+      "feature_7",
+      "feature_8",
+      "feature_9",
+      "feature_10",
+      "feature_11",
+      "feature_12",
+      "feature_13",
+      "feature_14",
+      "feature_15",
+      "feature_16",
+      "feature_17",
+      "feature_18",
+      "feature_19"
+    ],
+    "cache_hit": false,
+    "cache_type": null,
+    "context_id": null,
+    "duration_seconds": 0.43222068900013255,
+    "recipe": {
+      "n_estimators": 4,
+      "mitra_bag_folds": 2,
+      "time_limit": 30,
+      "benchmark_parity": false
+    },
+    "result_id": "result_fe8fddb57c09ce5e42185059",
+    "preview": [
+      {
+        "input_row": 0,
+        "prediction": 73.5671844482
+      },
+      {
+        "input_row": 1,
+        "prediction": -100.9321212769
+      },
+      {
+        "input_row": 2,
+        "prediction": 200.0462646484
+      },
+      {
+        "input_row": 3,
+        "prediction": -109.2293014526
+      },
+      {
+        "input_row": 4,
+        "prediction": -53.0059204102
+      }
+    ],
+    "rows": 500
+  },
+  "error": null,
+  "created": 1793818023.2237716,
+  "started": 1793818023.3486404,
+  "finished": 1793818024.0803804,
+  "cancel": 0
+}

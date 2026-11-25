@@ -1,0 +1,12 @@
+{
+  "wine": {
+    "initial_prompt": "Przetestuj demo BentoML GPU: pobierz sam przez dataset_from_url publiczny zbiór https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv (CSV separator średnik), a następnie użyj TabICLv2 (backend tabicl) do REGRESJI kolumny quality na wszystkich 11 pozostałych cechach, podział testowy 20%, seed 42. Uruchom evaluate i poczekaj przez get_job/get_result na rzeczywisty wynik. Nie zastępuj modelu własnym sklearn. Podaj dataset_id, job_id, rows train/test i liczba features, MAE, RMSE, R² oraz czasy zwrócone przez API. Na końcu utwórz widoczny wykres metryk jako HTML/React artifact (jeśli nie ma predykcji per próbka, nie wymyślaj ich) i krótką interpretację. Nie pytaj o upload: serwer sam pobiera dane z URL. Wykonaj całość teraz, nie tylko opisz plan.",
+    "initial_start_unix_ms": 1793888590162,
+    "chat_url": "https://claude.ai/chat/de7cf537-4aae-4558-8e04-e5dab5b95168",
+    "initial_status": "blocked_connector_enabledInChat_false"
+  },
+  "iris": {
+    "prompt": "Demo klasyfikacji przez BentoML GPU MCP: sam pobierz Kaggle https://www.kaggle.com/datasets/uciml/iris plik Iris.csv. Użyj TabICLv2 backend tabicl do klasyfikacji Species na 4 cechach SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm; wyłącz Id. Evaluate, holdout 20%,seed42, następnie rzeczywiście pobierz get_job i get_result. Nie trenuj zastępczego sklearn. Podaj rows train/test, features, dataset_id,job_id, accuracy,F1 i czasy API. Zrób widoczny HTML/React artifact z wykresem metryk i zwięzłą interpretację. Nie proś mnie o żadne pliki; server pobiera je sam. Wykonaj całość teraz.",
+    "status": "composed_not_sent"
+  }
+}

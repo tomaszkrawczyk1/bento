@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "bento": {
+        "type": "remote",
+        "url": "http://bento.internal:3000/mcp/",
+        "oauth": false,
+        "headers": {"Authorization": "Bearer {env:BENTO_API_KEY}"}
+      }
+    }
+  }
+}

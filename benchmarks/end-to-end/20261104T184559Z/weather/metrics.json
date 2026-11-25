@@ -1,0 +1,49 @@
+{
+  "task": "hourly_temperature_forecast",
+  "backend": "Timestral-209M",
+  "job_id": "job_759bb5c007cab3284ecc5577",
+  "result_id": "result_2e9feee0fca36f660f4d1968",
+  "input_rows": 720,
+  "context_rows": 720,
+  "train_rows": 720,
+  "test_rows": 29,
+  "horizon": 29,
+  "comparison_hours": 24,
+  "feature_count": 1,
+  "server_duration_seconds": 0.03599177599971881,
+  "queue_seconds": 0.20397472381591797,
+  "worker_seconds": 0.26424264907836914,
+  "cache_hit": false,
+  "inference_seconds": 0.031186078000246198,
+  "load_model_seconds": 0.0,
+  "as_of_cutoff_utc": "2026-11-04T18:46:23.769011+00:00",
+  "common_hours": 24,
+  "mean_difference_timestral_minus_interia_c": 0.6946700612703959,
+  "mae_between_forecasts_c": 0.9700193802515665,
+  "timestral_min_c": 1.6915130615234375,
+  "timestral_max_c": 8.541794776916504,
+  "interia_min_c": 0.0,
+  "interia_max_c": 8.0,
+  "selected_hours": [
+    {
+      "hour": 0,
+      "timestral_median_c": 2.083879947662353,
+      "interia_c": 3
+    },
+    {
+      "hour": 6,
+      "timestral_median_c": 1.8961601257324217,
+      "interia_c": 0
+    },
+    {
+      "hour": 12,
+      "timestral_median_c": 8.249021530151367,
+      "interia_c": 7
+    },
+    {
+      "hour": 18,
+      "timestral_median_c": 3.8452773094177246,
+      "interia_c": 4
+    }
+  ]
+}

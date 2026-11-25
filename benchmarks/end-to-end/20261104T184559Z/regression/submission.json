@@ -1,0 +1,6 @@
+{
+  "job_id": "job_bfa62bdaad728524c302bd9c",
+  "state": "queued",
+  "time_limit": 30,
+  "note": "Poll get_job. Mitra fine-tuning can take substantially longer than TabICL; no benchmark accuracy is guaranteed."
+}

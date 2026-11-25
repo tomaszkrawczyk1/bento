@@ -1,0 +1,10 @@
+{
+  "train": "ds_6cda861c3167345a0a604385",
+  "target": "target",
+  "backend": "tabicl",
+  "task": "classification",
+  "use_cache": false,
+  "seed": 42,
+  "test_size": 0.2,
+  "time_limit": 30
+}

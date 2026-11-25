@@ -1,0 +1,27 @@
+{
+  "upload_bytes": 53477470,
+  "public_upload_status": 200,
+  "default_backend": "tabicl",
+  "runs": [
+    {
+      "task": "classification",
+      "backend": "tabicl",
+      "checkpoint": "tabicl-v2-20260212",
+      "metrics": {
+        "accuracy": 0.8,
+        "f1_macro": 0.7916666666666667,
+        "roc_auc": 0.9400000000000001
+      }
+    },
+    {
+      "task": "regression",
+      "backend": "tabicl",
+      "checkpoint": "tabicl-v2-20260212",
+      "metrics": {
+        "rmse": 2.364279788079773,
+        "mae": 2.031764598549784,
+        "r2": 0.9997341493311429
+      }
+    }
+  ]
+}

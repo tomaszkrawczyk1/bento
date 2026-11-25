@@ -1,0 +1,97 @@
+{
+  "id": "job_fa12c2d8fb0f0e06fe92d77c",
+  "workspace": "bento-team",
+  "owner": "user_b68687196d937793e4371b21",
+  "state": "succeeded",
+  "spec": {
+    "train": "ds_5b77d9a9f81adc37c8b56820",
+    "target": "target",
+    "task": "regression",
+    "backend": "tabicl",
+    "use_cache": true,
+    "time_limit": 60,
+    "features": [
+      "age",
+      "sex",
+      "bmi",
+      "bp",
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "operation": "evaluate",
+    "workspace": "bento-team",
+    "seed": 42,
+    "test_size": 0.2
+  },
+  "result": {
+    "metrics": {
+      "rmse": 53.12568971590058,
+      "mae": 43.73101285477759,
+      "r2": 0.4750381345853836
+    },
+    "backend": "tabicl",
+    "checkpoint": "tabicl-v2-20260212",
+    "train_rows": 282,
+    "test_rows": 71,
+    "features": [
+      "age",
+      "sex",
+      "bmi",
+      "bp",
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "cache_hit": false,
+    "cache_type": null,
+    "context_id": "483fd229cca8ac0aa6f22889b1d94253d7eb73304e94befa1d30535aa38fb2ca",
+    "duration_seconds": 0.346727804000011,
+    "recipe": {
+      "n_estimators": 4,
+      "mitra_bag_folds": 2,
+      "time_limit": 60,
+      "benchmark_parity": false
+    },
+    "result_id": "result_c9ae05a573691a51a2423c0a",
+    "preview": [
+      {
+        "input_row": 219,
+        "prediction": 131.0073852539,
+        "actual": 230.0
+      },
+      {
+        "input_row": 42,
+        "prediction": 89.4218444824,
+        "actual": 93.0
+      },
+      {
+        "input_row": 211,
+        "prediction": 170.1389465332,
+        "actual": 225.0
+      },
+      {
+        "input_row": 193,
+        "prediction": 285.1520385742,
+        "actual": 242.0
+      },
+      {
+        "input_row": 56,
+        "prediction": 201.8548583984,
+        "actual": 249.0
+      }
+    ],
+    "rows": 71
+  },
+  "error": null,
+  "created": 1793812119.72501,
+  "started": 1793812120.1756773,
+  "finished": 1793812122.6806269,
+  "cancel": 0
+}

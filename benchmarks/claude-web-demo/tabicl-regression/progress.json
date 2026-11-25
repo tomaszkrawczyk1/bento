@@ -1,0 +1,16 @@
+{
+  "draft_backup": "które z tego wybrac pod p",
+  "mpg": {
+    "url": "https://claude.ai/chat/b1c279bf-1d4b-4ff6-857d-4dd75fbb0291",
+    "first_start": 1793888581693,
+    "retry_start": 1793888681693,
+    "state": "OAuth connection request; waiting for shared browser focus"
+  },
+  "tips": {
+    "state": "prepared",
+    "tab": 71
+  },
+  "insurance": {
+    "state": "prepared"
+  }
+}

@@ -1,0 +1,10 @@
+*
+!app/
+!app/**
+!models/
+!models/**
+!scripts/
+!scripts/**
+!deploy/
+!deploy/Dockerfile
+**/__pycache__

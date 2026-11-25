@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "id": "EPKT",
+  "properties": {
+    "elevation": 284.0,
+    "sname": "Katowice",
+    "time_domain": "(2001-Now)",
+    "archive_begin": "2001-07-21",
+    "archive_end": null,
+    "state": null,
+    "country": "PL",
+    "climate_site": null,
+    "wfo": null,
+    "tzname": "Europe/Warsaw",
+    "ncdc81": null,
+    "ncei91": null,
+    "ugc_county": null,
+    "ugc_zone": null,
+    "county": null,
+    "sid": "EPKT",
+    "network": "PL__ASOS",
+    "online": true,
+    "synop": 99999,
+    "attributes": {
+      "GHCNH_ID": "PLI0000EPKT",
+      "METAR_RESET_MINUTE": "0",
+      "HAS_PHOUR": "1"
+    }
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      19.0764,
+      50.4694
+    ]
+  }
+}

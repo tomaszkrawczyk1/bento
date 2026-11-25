@@ -1,0 +1,348 @@
+[
+  {
+    "method": "POST",
+    "path": "/datasets",
+    "status": 200,
+    "response": {
+      "dataset_id": "ds_c38342c6d61f8dfb4e5dc5bd",
+      "name": "history-hourly-utc.csv",
+      "rows": 720,
+      "columns": [
+        {
+          "name": "timestamp",
+          "dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "temperature_c",
+          "dtype": "float64",
+          "missing": 0
+        }
+      ],
+      "sha256": "88c93749f3323803427ad1aac700ba6c727c274a1b39fa4673d37743f98fd9e0",
+      "created": 1793817985.0226638,
+      "expires": 1794422785.0226643,
+      "owner": "user_b68687196d937793e4371b21",
+      "workspace": "bento-team",
+      "provenance": {
+        "source": "upload"
+      },
+      "preview": [
+        {
+          "timestamp": "2026-10-05T18:00:00+00:00",
+          "temperature_c": 9.5
+        },
+        {
+          "timestamp": "2026-10-05T19:00:00+00:00",
+          "temperature_c": 8.5
+        },
+        {
+          "timestamp": "2026-10-05T20:00:00+00:00",
+          "temperature_c": 6.5
+        },
+        {
+          "timestamp": "2026-10-05T21:00:00+00:00",
+          "temperature_c": 6.0
+        },
+        {
+          "timestamp": "2026-10-05T22:00:00+00:00",
+          "temperature_c": 5.5
+        }
+      ]
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/datasets/ds_c38342c6d61f8dfb4e5dc5bd",
+    "status": 200,
+    "response": {
+      "dataset_id": "ds_c38342c6d61f8dfb4e5dc5bd",
+      "name": "history-hourly-utc.csv",
+      "rows": 720,
+      "columns": [
+        {
+          "name": "timestamp",
+          "dtype": "str",
+          "missing": 0
+        },
+        {
+          "name": "temperature_c",
+          "dtype": "float64",
+          "missing": 0
+        }
+      ],
+      "sha256": "88c93749f3323803427ad1aac700ba6c727c274a1b39fa4673d37743f98fd9e0",
+      "created": 1793817985.0226638,
+      "expires": 1794422785.0226643,
+      "owner": "user_b68687196d937793e4371b21",
+      "workspace": "bento-team",
+      "provenance": {
+        "source": "upload"
+      },
+      "preview": [
+        {
+          "timestamp": "2026-10-05T18:00:00+00:00",
+          "temperature_c": 9.5
+        },
+        {
+          "timestamp": "2026-10-05T19:00:00+00:00",
+          "temperature_c": 8.5
+        },
+        {
+          "timestamp": "2026-10-05T20:00:00+00:00",
+          "temperature_c": 6.5
+        },
+        {
+          "timestamp": "2026-10-05T21:00:00+00:00",
+          "temperature_c": 6.0
+        },
+        {
+          "timestamp": "2026-10-05T22:00:00+00:00",
+          "temperature_c": 5.5
+        }
+      ]
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/forecast",
+    "status": 200,
+    "response": {
+      "job_id": "job_759bb5c007cab3284ecc5577",
+      "state": "queued",
+      "time_limit": 120,
+      "note": "Poll get_job. Mitra fine-tuning can take substantially longer than TabICL; no benchmark accuracy is guaranteed."
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/jobs/job_759bb5c007cab3284ecc5577",
+    "status": 200,
+    "response": {
+      "id": "job_759bb5c007cab3284ecc5577",
+      "workspace": "bento-team",
+      "owner": "user_b68687196d937793e4371b21",
+      "state": "succeeded",
+      "spec": {
+        "dataset": "ds_c38342c6d61f8dfb4e5dc5bd",
+        "targets": [
+          "temperature_c"
+        ],
+        "timestamp": "timestamp",
+        "prediction_length": 29,
+        "past_covariates": [],
+        "known_covariates": [],
+        "use_cache": false,
+        "backend": "timestral",
+        "task": "forecast",
+        "operation": "forecast",
+        "workspace": "bento-team",
+        "time_limit": 120
+      },
+      "result": {
+        "metrics": {},
+        "backend": "timestral",
+        "checkpoint": "Timestral-209M",
+        "task": "forecast",
+        "context_rows": 720,
+        "context_steps_per_series": [
+          720
+        ],
+        "series_count": 1,
+        "target_count": 1,
+        "feature_count": 1,
+        "features": [
+          "temperature_c"
+        ],
+        "prediction_length": 29,
+        "quantile_levels": [
+          0.01,
+          0.05,
+          0.1,
+          0.15,
+          0.2,
+          0.25,
+          0.3,
+          0.35,
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6,
+          0.65,
+          0.7,
+          0.75,
+          0.8,
+          0.85,
+          0.9,
+          0.95,
+          0.99
+        ],
+        "cache_hit": false,
+        "cache_type": null,
+        "context_id": null,
+        "load_model_seconds": 0.0,
+        "inference_seconds": 0.031186078000246198,
+        "inference_executed": true,
+        "duration_seconds": 0.03599177599971881,
+        "gpu_peak_allocated_mib": 837.01416015625,
+        "recipe": {
+          "zero_shot": true,
+          "fine_tune": false,
+          "benchmark_parity": false,
+          "device": "cuda",
+          "weights_offline": true
+        },
+        "result_id": "result_2e9feee0fca36f660f4d1968",
+        "preview": [
+          {
+            "series_id": "series_0",
+            "timestamp": "2026-11-04T18:00:00+00:00",
+            "target": "temperature_c",
+            "horizon_step": 1,
+            "prediction": 3.1880846024,
+            "q_0.01": 0.1177742481,
+            "q_0.05": 1.4905679226,
+            "q_0.1": 2.0148758888,
+            "q_0.15": 2.328700304,
+            "q_0.2": 2.5441539288,
+            "q_0.25": 2.6973352432,
+            "q_0.3": 2.8178701401,
+            "q_0.35": 2.9242098331,
+            "q_0.4": 3.0231957436,
+            "q_0.45": 3.1017253399,
+            "q_0.5": 3.1880846024,
+            "q_0.55": 3.2762877941,
+            "q_0.6": 3.3670823574,
+            "q_0.65": 3.4666368961,
+            "q_0.7": 3.5667960644,
+            "q_0.75": 3.6781349182,
+            "q_0.8": 3.8122448921,
+            "q_0.85": 3.9861443043,
+            "q_0.9": 4.2466406822,
+            "q_0.95": 4.6970100403,
+            "q_0.99": 5.9215955734
+          },
+          {
+            "series_id": "series_0",
+            "timestamp": "2026-11-04T19:00:00+00:00",
+            "target": "temperature_c",
+            "horizon_step": 2,
+            "prediction": 2.8900337219,
+            "q_0.01": -1.8187561035,
+            "q_0.05": 0.1169040203,
+            "q_0.1": 0.9477863312,
+            "q_0.15": 1.4195473194,
+            "q_0.2": 1.740149498,
+            "q_0.25": 1.9809873104,
+            "q_0.3": 2.2086215019,
+            "q_0.35": 2.4107401371,
+            "q_0.4": 2.5822913647,
+            "q_0.45": 2.734341383,
+            "q_0.5": 2.8900337219,
+            "q_0.55": 3.0373010635,
+            "q_0.6": 3.1872487068,
+            "q_0.65": 3.3437962532,
+            "q_0.7": 3.4990236759,
+            "q_0.75": 3.6764981747,
+            "q_0.8": 3.8732495308,
+            "q_0.85": 4.1235237122,
+            "q_0.9": 4.4643688202,
+            "q_0.95": 5.032746315,
+            "q_0.99": 6.4947390556
+          },
+          {
+            "series_id": "series_0",
+            "timestamp": "2026-11-04T20:00:00+00:00",
+            "target": "temperature_c",
+            "horizon_step": 3,
+            "prediction": 2.5457327366,
+            "q_0.01": -3.1884121895,
+            "q_0.05": -0.9834032059,
+            "q_0.1": -0.0255088806,
+            "q_0.15": 0.5497186184,
+            "q_0.2": 0.9811995029,
+            "q_0.25": 1.3274977207,
+            "q_0.3": 1.6396772861,
+            "q_0.35": 1.9079427719,
+            "q_0.4": 2.1394643784,
+            "q_0.45": 2.3408310413,
+            "q_0.5": 2.5457327366,
+            "q_0.55": 2.742607832,
+            "q_0.6": 2.9335896969,
+            "q_0.65": 3.1156682968,
+            "q_0.7": 3.2986030579,
+            "q_0.75": 3.5019483566,
+            "q_0.8": 3.734960556,
+            "q_0.85": 4.0361242294,
+            "q_0.9": 4.4453263283,
+            "q_0.95": 5.113735199,
+            "q_0.99": 6.69769907
+          },
+          {
+            "series_id": "series_0",
+            "timestamp": "2026-11-04T21:00:00+00:00",
+            "target": "temperature_c",
+            "horizon_step": 4,
+            "prediction": 2.339392662,
+            "q_0.01": -4.1223769188,
+            "q_0.05": -1.7684702873,
+            "q_0.1": -0.678601265,
+            "q_0.15": 0.0009143353,
+            "q_0.2": 0.5092556477,
+            "q_0.25": 0.9118149281,
+            "q_0.3": 1.2558541298,
+            "q_0.35": 1.5697529316,
+            "q_0.4": 1.8478980064,
+            "q_0.45": 2.0899343491,
+            "q_0.5": 2.339392662,
+            "q_0.55": 2.5669960976,
+            "q_0.6": 2.7923905849,
+            "q_0.65": 3.0131824017,
+            "q_0.7": 3.2341043949,
+            "q_0.75": 3.4579701424,
+            "q_0.8": 3.7011041641,
+            "q_0.85": 4.0212812424,
+            "q_0.9": 4.4646658897,
+            "q_0.95": 5.1921482086,
+            "q_0.99": 6.8722643852
+          },
+          {
+            "series_id": "series_0",
+            "timestamp": "2026-11-04T22:00:00+00:00",
+            "target": "temperature_c",
+            "horizon_step": 5,
+            "prediction": 2.1902763844,
+            "q_0.01": -4.5598139763,
+            "q_0.05": -2.1870317459,
+            "q_0.1": -1.0919766426,
+            "q_0.15": -0.4113883972,
+            "q_0.2": 0.1298415661,
+            "q_0.25": 0.5618400574,
+            "q_0.3": 0.9521555901,
+            "q_0.35": 1.3041787148,
+            "q_0.4": 1.6154367924,
+            "q_0.45": 1.8908026218,
+            "q_0.5": 2.1902763844,
+            "q_0.55": 2.4440376759,
+            "q_0.6": 2.6796276569,
+            "q_0.65": 2.9069769382,
+            "q_0.7": 3.1286349297,
+            "q_0.75": 3.3669214249,
+            "q_0.8": 3.6307795048,
+            "q_0.85": 3.9570889473,
+            "q_0.9": 4.3956985474,
+            "q_0.95": 5.0970783234,
+            "q_0.99": 6.836874485
+          }
+        ],
+        "rows": 29
+      },
+      "error": null,
+      "created": 1793817985.039611,
+      "started": 1793817985.2435858,
+      "finished": 1793817985.5078285,
+      "cancel": 0
+    }
+  }
+]

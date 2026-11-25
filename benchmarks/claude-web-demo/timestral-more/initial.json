@@ -1,0 +1,42 @@
+{
+  "airlineStart": 1793888706533,
+  "melbourneStart": 1793888714228,
+  "scenarios": [
+    {
+      "id": 77,
+      "info": {
+        "groupId": "FB7CDE7F702FBEF3C36DF249D68936B5",
+        "index": 20,
+        "isActive": false,
+        "isLoading": false,
+        "isPinned": false,
+        "loadProgress": 0,
+        "pageId": 77,
+        "tabId": 922858161,
+        "targetId": "AEBE8E11F9018B63D88DA2F251709496",
+        "title": "Prognoza pasażerów BentoML - Claude",
+        "url": "https://claude.ai/chat/5700444d-c0c2-4015-a16c-f98e6b2f9083",
+        "windowId": 922857995
+      },
+      "text": "Prognoza pasażerów BentoML\n\n\nStep 1 of 1\nStep 1 of 1\n\nShare\n\nUse the up and down arrow keys to move between messages.\n\nYou said: Test demonstracyjny BentoML + MCP: sam pobierz na serwer przez connector BentoML GPU zbiór https://raw.githubusercontent.com/jbrownlee/Datasets/master/airline-…\n\nTest demonstracyjny BentoML + MCP: sam pobierz na serwer przez connector BentoML GPU zbiór https://raw.githubusercontent.com/jbrownlee/Datasets/master/airline-passengers.csv i modelem Timestral-209M przewidź następne 12 miesięcy liczby pasażerów. Kolumna czasu Month, cel Passengers. Użyj rzeczywistych narzędzi dataset_from_url, forecast i odbierz wynik zadania (job_status/job_result). Nie wymyślaj predykcji, nie trenuj własnego modelu. Następnie pokaż czytelny wykres prognozy, tabelkę 12 punktów i krótki opis sezonowości. Możesz użyć narzędzi tworzenia wykresu/artifact HTML/SVG, jeśli Python nie jest dostępny. Na końcu podaj dataset_id, job_id, liczbę wierszy wejściowych, serii, targetów, horyzont i czasy backendu z odpowiedzi API. Nie czekaj na dodatkowe zgody, wykonaj cały przebieg.\n\njust now\n\n\n\nNeeds your input\n\nNeeds your input\n\n\nReconnect a connector to keep using it\n\n\nBentoML GPU\n·Reconnect to use it again.\nConnect\nReply\n\n\n\n\n\n\n\n\n\nClaude is AI and can make mistakes.\nSonnet 5.5\n Medium\nAuto\nClaude finished the response\n\nProgress\nPobierz zbiór i uruchom prognozę\n, Not started"
+    },
+    {
+      "id": 78,
+      "info": {
+        "groupId": "FB7CDE7F702FBEF3C36DF249D68936B5",
+        "index": 21,
+        "isActive": false,
+        "isLoading": false,
+        "isPinned": false,
+        "loadProgress": 0,
+        "pageId": 78,
+        "tabId": 922858162,
+        "targetId": "DD98C4AD952BFA3123185713B211C39D",
+        "title": "BentoML MCP temperature forecast - Claude",
+        "url": "https://claude.ai/chat/93d0d29c-8a1f-4b6b-a76d-7b5107f1223c",
+        "windowId": 922857995
+      },
+      "text": "BentoML MCP temperature forecast\n\n\n\nShare\n\nUse the up and down arrow keys to move between messages.\n\nYou said: Test demonstracyjny BentoML + MCP: sam pobierz na serwer przez connector BentoML GPU zbiór https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-mi…\n\nTest demonstracyjny BentoML + MCP: sam pobierz na serwer przez connector BentoML GPU zbiór https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv i modelem Timestral-209M przewidź następne 30 dni minimalnej temperatury Melbourne po końcu tego historycznego zbioru. To benchmark historyczny, NIE prognoza bieżącej pogody. Kolumna czasu Date, cel Temp. Użyj rzeczywistych narzędzi dataset_from_url, forecast i odbierz wynik zadania (job_status/job_result). Jeśli dane mają lukę daty, nie uzupełniaj jej wymyślonym pomiarem: opisz problem i spróbuj importu odpowiedniego ciągłego okresu przez ogólne opcje importera, jeśli są dostępne. Nie wymyślaj predykcji ani nie trenuj własnego modelu. Pokaż wykres prognozy, tabelkę 30 punktów, daty i krótki komentarz. Możesz stworzyć artifact HTML/SVG, jeśli brak Pythona. Na końcu podaj dataset_id, job_id, liczbę wierszy wejściowych, serii, targetów, horyzont i czasy backendu z API. Wykonaj cały przebieg.\n\njust now\n\n\n\nClaude responded: Zaczynam od załadowania narzędzi BentoML GPU, a potem pobiorę zbiór przez connector.\n\nZaczynam od załadowania narzędzi BentoML GPU, a potem pobiorę zbiór przez connector.\n\nNeeds your input\n\nNeeds your input\n\n\nReconnect a connector to keep using it\n\n\nBentoML GPU\n·Reconnect to use it again.\nConnect\nReply\n\n\n\n\n\n\n\n\n\nClaude is AI and can make mistakes.\nSonnet 5.5\n Medium\nAuto\nClaude finished the response"
+    }
+  ]
+}

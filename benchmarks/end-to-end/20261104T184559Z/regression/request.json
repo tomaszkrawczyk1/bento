@@ -1,0 +1,11 @@
+{
+  "train": "ds_b3423737d1e4b10b34124c23",
+  "test": "ds_19f342c9f7fe0afdd6bc267b",
+  "target": "target",
+  "backend": "tabicl",
+  "task": "regression",
+  "fine_tune": false,
+  "use_cache": false,
+  "time_limit": 30,
+  "seed": 2026
+}

@@ -1,0 +1,18 @@
+{
+    admin localhost:2019
+}
+vmi3696773.contaboserver.net {
+    @bento path / /health /mcp /mcp/* /t/*/mcp /t/*/mcp/ /oauth/* /.well-known/* /upload/* /download/*
+    handle @bento {
+        reverse_proxy 100.77.87.6:3003 {
+            flush_interval -1
+            transport http {
+                dial_timeout 10s
+                response_header_timeout 3600s
+            }
+        }
+    }
+    handle {
+        respond "Not found" 404
+    }
+}

@@ -1,0 +1,154 @@
+{
+  "forecast_date": "2026-11-05",
+  "heading": "POGODA JUTRO, KATOWICE\nCZWARTEK, 5 LISTOPADA",
+  "hourly": [
+    {
+      "hour": 0,
+      "raw_temperature": "3°C",
+      "temperature_c": 3,
+      "timestamp": "2026-11-05T00:00:00+01:00"
+    },
+    {
+      "hour": 1,
+      "raw_temperature": "2°C",
+      "temperature_c": 2,
+      "timestamp": "2026-11-05T01:00:00+01:00"
+    },
+    {
+      "hour": 2,
+      "raw_temperature": "2°C",
+      "temperature_c": 2,
+      "timestamp": "2026-11-05T02:00:00+01:00"
+    },
+    {
+      "hour": 3,
+      "raw_temperature": "2°C",
+      "temperature_c": 2,
+      "timestamp": "2026-11-05T03:00:00+01:00"
+    },
+    {
+      "hour": 4,
+      "raw_temperature": "2°C",
+      "temperature_c": 2,
+      "timestamp": "2026-11-05T04:00:00+01:00"
+    },
+    {
+      "hour": 5,
+      "raw_temperature": "1°C",
+      "temperature_c": 1,
+      "timestamp": "2026-11-05T05:00:00+01:00"
+    },
+    {
+      "hour": 6,
+      "raw_temperature": "0°C",
+      "temperature_c": 0,
+      "timestamp": "2026-11-05T06:00:00+01:00"
+    },
+    {
+      "hour": 7,
+      "raw_temperature": "1°C",
+      "temperature_c": 1,
+      "timestamp": "2026-11-05T07:00:00+01:00"
+    },
+    {
+      "hour": 8,
+      "raw_temperature": "2°C",
+      "temperature_c": 2,
+      "timestamp": "2026-11-05T08:00:00+01:00"
+    },
+    {
+      "hour": 9,
+      "raw_temperature": "4°C",
+      "temperature_c": 4,
+      "timestamp": "2026-11-05T09:00:00+01:00"
+    },
+    {
+      "hour": 10,
+      "raw_temperature": "5°C",
+      "temperature_c": 5,
+      "timestamp": "2026-11-05T10:00:00+01:00"
+    },
+    {
+      "hour": 11,
+      "raw_temperature": "6°C",
+      "temperature_c": 6,
+      "timestamp": "2026-11-05T11:00:00+01:00"
+    },
+    {
+      "hour": 12,
+      "raw_temperature": "7°C",
+      "temperature_c": 7,
+      "timestamp": "2026-11-05T12:00:00+01:00"
+    },
+    {
+      "hour": 13,
+      "raw_temperature": "8°C",
+      "temperature_c": 8,
+      "timestamp": "2026-11-05T13:00:00+01:00"
+    },
+    {
+      "hour": 14,
+      "raw_temperature": "8°C",
+      "temperature_c": 8,
+      "timestamp": "2026-11-05T14:00:00+01:00"
+    },
+    {
+      "hour": 15,
+      "raw_temperature": "8°C",
+      "temperature_c": 8,
+      "timestamp": "2026-11-05T15:00:00+01:00"
+    },
+    {
+      "hour": 16,
+      "raw_temperature": "7°C",
+      "temperature_c": 7,
+      "timestamp": "2026-11-05T16:00:00+01:00"
+    },
+    {
+      "hour": 17,
+      "raw_temperature": "6°C",
+      "temperature_c": 6,
+      "timestamp": "2026-11-05T17:00:00+01:00"
+    },
+    {
+      "hour": 18,
+      "raw_temperature": "4°C",
+      "temperature_c": 4,
+      "timestamp": "2026-11-05T18:00:00+01:00"
+    },
+    {
+      "hour": 19,
+      "raw_temperature": "3°C",
+      "temperature_c": 3,
+      "timestamp": "2026-11-05T19:00:00+01:00"
+    },
+    {
+      "hour": 20,
+      "raw_temperature": "2°C",
+      "temperature_c": 2,
+      "timestamp": "2026-11-05T20:00:00+01:00"
+    },
+    {
+      "hour": 21,
+      "raw_temperature": "1°C",
+      "temperature_c": 1,
+      "timestamp": "2026-11-05T21:00:00+01:00"
+    },
+    {
+      "hour": 22,
+      "raw_temperature": "1°C",
+      "temperature_c": 1,
+      "timestamp": "2026-11-05T22:00:00+01:00"
+    },
+    {
+      "hour": 23,
+      "raw_temperature": "0°C",
+      "temperature_c": 0,
+      "timestamp": "2026-11-05T23:00:00+01:00"
+    }
+  ],
+  "retrieved_at_utc": "2026-11-04T18:05:35.363Z",
+  "source_name": "Pogoda Interia / AccuWeather",
+  "source_url": "https://pogoda.interia.pl/prognoza-szczegolowa-katowice,cId,13095?",
+  "timezone": "Europe/Warsaw"
+}

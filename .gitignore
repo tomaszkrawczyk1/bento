@@ -1,0 +1,12 @@
+.venv*/
+.bootstrap/
+.credentials/
+.env
+*.log
+__pycache__/
+data/
+weights/
+vendor/
+deploy/twingate.env
+deploy/public-url.txt
+deploy/*token*

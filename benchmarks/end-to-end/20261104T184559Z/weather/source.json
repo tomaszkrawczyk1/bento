@@ -1,0 +1,64 @@
+{
+  "name": "Iowa Environmental Mesonet ASOS/METAR archive, station EPKT Katowice-Pyrzowice",
+  "kind": "surface temperature observations from METAR, not model reanalysis or forecast",
+  "request_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EPKT&data=tmpc&year1=2026&month1=10&day1=5&year2=2026&month2=11&day2=5&tz=Etc%2FUTC&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=T&direct=no&report_type=3&report_type=4",
+  "metadata_url": "https://mesonet.agron.iastate.edu/geojson/network/PL__ASOS.geojson",
+  "retrieved_at_utc": "2026-11-04T18:46:23.769043+00:00",
+  "as_of_cutoff_utc": "2026-11-04T18:46:23.769011+00:00",
+  "station": {
+    "type": "Feature",
+    "id": "EPKT",
+    "properties": {
+      "elevation": 284.0,
+      "sname": "Katowice",
+      "time_domain": "(2001-Now)",
+      "archive_begin": "2001-07-21",
+      "archive_end": null,
+      "state": null,
+      "country": "PL",
+      "climate_site": null,
+      "wfo": null,
+      "tzname": "Europe/Warsaw",
+      "ncdc81": null,
+      "ncei91": null,
+      "ugc_county": null,
+      "ugc_zone": null,
+      "county": null,
+      "sid": "EPKT",
+      "network": "PL__ASOS",
+      "online": true,
+      "synop": 99999,
+      "attributes": {
+        "GHCNH_ID": "PLI0000EPKT",
+        "METAR_RESET_MINUTE": "0",
+        "HAS_PHOUR": "1"
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        19.0764,
+        50.4694
+      ]
+    }
+  },
+  "latitude": 50.4694,
+  "longitude": 19.0764,
+  "elevation_m": 284.0,
+  "katowice_center_approx": [
+    50.2649,
+    19.0238
+  ],
+  "distance_to_center_km": 23.043377900947352,
+  "raw_file_last_timestamp": "2026-11-04T18:30:00+00:00",
+  "last_observation_used_utc": "2026-11-04T17:30:00+00:00",
+  "hourly_context_start_utc": "2026-10-05T18:00:00+00:00",
+  "hourly_context_end_utc": "2026-11-04T17:00:00+00:00",
+  "context_rows": 720,
+  "observed_hourly_values": 720,
+  "missing_hourly_values": 0,
+  "observation_rows_used": 1440,
+  "aggregation": "Deduplicate exact timestamps by arithmetic mean, then mean over completed [hour,hour+1h) UTC bins; label at left edge; regular hourly reindex; missing stays NaN; no future fill",
+  "prediction_length": 29,
+  "forecast_end_utc": "2026-11-05T22:00:00+00:00"
+}

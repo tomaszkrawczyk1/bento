@@ -1,0 +1,10 @@
+{
+  "Id": "383de44a-acfb-42ec-897a-555426f17484",
+  "Name": "Bento API \u2014 dwa zadania i pomiary",
+  "Provider": "codex",
+  "Model": "gpt-6.1-sol",
+  "Thinking": "medium",
+  "Cwd": "/home/laptop/studia/chmura",
+  "ParentAgentId": "3f7d75db-6963-4d86-aeef-66e8ed6cc5bd",
+  "CreatedAt": "2026-11-04T17:34:23.678Z"
+}

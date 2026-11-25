@@ -1,0 +1,10 @@
+[Unit]
+Description=Bento public demo tunnel
+After=network-online.target
+[Service]
+WorkingDirectory=/home/pc/sandbox/bento
+ExecStart=/usr/bin/python3 /home/pc/sandbox/bento/deploy/run_tunnel.py
+Restart=always
+RestartSec=5
+[Install]
+WantedBy=default.target

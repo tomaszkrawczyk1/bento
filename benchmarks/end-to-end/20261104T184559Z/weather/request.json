@@ -1,0 +1,11 @@
+{
+  "dataset": "ds_c38342c6d61f8dfb4e5dc5bd",
+  "targets": [
+    "temperature_c"
+  ],
+  "timestamp": "timestamp",
+  "prediction_length": 29,
+  "past_covariates": [],
+  "known_covariates": [],
+  "use_cache": false
+}

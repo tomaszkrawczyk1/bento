@@ -1,0 +1,11 @@
+name: bento
+services:
+  postgres:
+    image: postgres:18
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: bento_demo
+      POSTGRES_USER: bento_admin
+      POSTGRES_PASSWORD: ${DEMO_POSTGRES_PASSWORD:?set in .env}
+    volumes:
+      - ../data/postgres:/var/lib/postgresql

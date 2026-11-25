@@ -1,0 +1,20 @@
+{
+  "task": "regression",
+  "backend": "tabicl",
+  "job_id": "job_bfa62bdaad728524c302bd9c",
+  "result_id": "result_fe8fddb57c09ce5e42185059",
+  "input_rows": 2500,
+  "train_rows": 2000,
+  "test_rows": 500,
+  "feature_count": 20,
+  "server_duration_seconds": 0.43222068900013255,
+  "queue_seconds": 0.12486886978149414,
+  "worker_seconds": 0.7317399978637695,
+  "cache_hit": false,
+  "rmse": 10.427680859579082,
+  "mae": 8.291464213345037,
+  "r2": 0.9971641232085602,
+  "residual_definition": "actual - prediction",
+  "duration_definition": "Server duration includes preparation, fit and prediction; worker_seconds is finished minus started",
+  "source": "New sklearn.make_regression: n_samples=2500, n_features=20, n_informative=15, noise=10, random_state=2026; train_test_split random_state=2026"
+}

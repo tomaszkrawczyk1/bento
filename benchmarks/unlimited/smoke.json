@@ -1,0 +1,10 @@
+{
+  "rows": 20001,
+  "columns": 301,
+  "public_json_upload": true,
+  "ticket_reuse_blocked": true,
+  "classes": 31,
+  "default_backend": "tabicl",
+  "checkpoint": "tabicl-v2-20260212",
+  "job_id": "job_9ad8c68056eb548524a65272"
+}

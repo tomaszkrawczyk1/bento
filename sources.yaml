@@ -1,0 +1,18 @@
+sources:
+  demo:
+    type: sqlite
+    path: /home/pc/sandbox/bento/data/demo.sqlite
+    tables: [classification_data, regression_data]
+  postgres_demo:
+    type: postgres
+    dsn_env: DEMO_POSTGRES_DSN
+    tables: [classification_data, regression_data]
+  # Add a read-only account and explicitly permitted tables:
+  # postgres_demo:
+  #   type: postgres
+  #   dsn_env: POSTGRES_DSN
+  #   tables: [public.customers]
+  # mysql_demo:
+  #   type: mysql
+  #   dsn_env: MYSQL_DSN
+  #   tables: [customers]

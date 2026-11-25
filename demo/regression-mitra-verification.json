@@ -1,0 +1,98 @@
+{
+  "id": "job_ec1f24d136999257e82d83ed",
+  "workspace": "bento-team",
+  "owner": "user_b68687196d937793e4371b21",
+  "state": "succeeded",
+  "spec": {
+    "train": "ds_2ec103c9fa6d68557ed8fb69",
+    "target": "target",
+    "task": "regression",
+    "backend": "mitra",
+    "use_cache": true,
+    "time_limit": 30,
+    "fine_tune": true,
+    "features": [
+      "age",
+      "sex",
+      "bmi",
+      "bp",
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "operation": "evaluate",
+    "workspace": "bento-team",
+    "seed": 42,
+    "test_size": 0.2
+  },
+  "result": {
+    "metrics": {
+      "rmse": 54.16442199066262,
+      "mae": 44.802751890370544,
+      "r2": 0.45430896441240665
+    },
+    "backend": "mitra",
+    "checkpoint": "mitra-v2-finetune-2fold-demo",
+    "train_rows": 282,
+    "test_rows": 71,
+    "features": [
+      "age",
+      "sex",
+      "bmi",
+      "bp",
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "cache_hit": false,
+    "cache_type": null,
+    "context_id": null,
+    "duration_seconds": 19.122739132000106,
+    "recipe": {
+      "n_estimators": 4,
+      "mitra_bag_folds": 2,
+      "time_limit": 30,
+      "benchmark_parity": false
+    },
+    "result_id": "result_ed7bdd33de32acb707109d03",
+    "preview": [
+      {
+        "input_row": 219,
+        "prediction": 124.7682113647,
+        "actual": 230.0
+      },
+      {
+        "input_row": 42,
+        "prediction": 85.7044525146,
+        "actual": 93.0
+      },
+      {
+        "input_row": 211,
+        "prediction": 163.7895202637,
+        "actual": 225.0
+      },
+      {
+        "input_row": 193,
+        "prediction": 276.7358703613,
+        "actual": 242.0
+      },
+      {
+        "input_row": 56,
+        "prediction": 193.5670166016,
+        "actual": 249.0
+      }
+    ],
+    "rows": 71
+  },
+  "error": null,
+  "created": 1793812203.061746,
+  "started": 1793812203.1237307,
+  "finished": 1793812223.382722,
+  "cancel": 0
+}

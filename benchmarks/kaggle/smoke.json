@@ -1,0 +1,28 @@
+{
+  "reference": "uciml/breast-cancer-wisconsin-data",
+  "version": 2,
+  "rows": 569,
+  "features": 30,
+  "imports": {
+    "first": {
+      "seconds": 1.374660034000044,
+      "cache_hit": false,
+      "dataset_id": "ds_f0e5b1c6ef6802469cab9caa"
+    },
+    "repeat": {
+      "seconds": 0.06648384400068608,
+      "cache_hit": true,
+      "dataset_id": "ds_f0e5b1c6ef6802469cab9caa"
+    }
+  },
+  "source_preview": [],
+  "raw_download_status": 400,
+  "job_id": "job_4659bfbbe4f9100a63e15f77",
+  "metrics": {
+    "accuracy": 0.9912280701754386,
+    "f1_macro": 0.9905276277523889,
+    "roc_auc": 0.9973544973544973
+  },
+  "model_seconds": 1.7906805300008273,
+  "mcp_tool_count": 16
+}

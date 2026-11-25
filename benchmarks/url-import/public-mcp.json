@@ -1,0 +1,37 @@
+[
+  {
+    "name": "github-share",
+    "seconds": 0.077,
+    "rows": 150,
+    "columns": 5,
+    "cache_hit": true
+  },
+  {
+    "name": "google-sheets",
+    "seconds": 0.068,
+    "rows": 30,
+    "columns": 6,
+    "cache_hit": true
+  },
+  {
+    "name": "json-api",
+    "seconds": 0.086,
+    "rows": 24,
+    "columns": 2,
+    "cache_hit": true
+  },
+  {
+    "name": "archive",
+    "seconds": 0.068,
+    "rows": 150,
+    "columns": 5,
+    "cache_hit": true
+  },
+  {
+    "name": "kaggle",
+    "seconds": 0.763,
+    "rows": 150,
+    "columns": 6,
+    "cache_hit": true
+  }
+]

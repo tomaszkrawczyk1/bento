@@ -1,0 +1,29 @@
+[
+  {
+    "repo": "jingang/TabICL",
+    "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+    "directory": "tabicl",
+    "files": [
+      "tabicl-classifier-v2-20260212.ckpt",
+      "tabicl-regressor-v2-20260212.ckpt"
+    ]
+  },
+  {
+    "repo": "autogluon/mitra-classifier-2",
+    "revision": "edada0d20759c58ada8c8605c25f22f6e98ea5f0",
+    "directory": "mitra-classifier",
+    "files": null
+  },
+  {
+    "repo": "autogluon/mitra-regressor-2",
+    "revision": "246c7d310fff04296a2388df5f448e3ffe809283",
+    "directory": "mitra-regressor",
+    "files": null
+  },
+  {
+    "repo": "mistralai/Timestral-209M",
+    "revision": "9874d252ab0aae16f7f7c999f98f98d6ad7d8365",
+    "directory": "timestral-209m",
+    "files": null
+  }
+]
